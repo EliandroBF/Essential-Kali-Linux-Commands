@@ -1,0 +1,107 @@
+# Kali-Linux-Commands
+100 Essential Kali Linux Commands for Penetration Testing and Ethical Hacking
+
+# Network and Traffic Analysis Commands 
+ifconfig – Displays network interfaces and their configurations.
+ping – Sends ICMP packets to check if a host is reachable.
+netstat – Shows network statistics, active connections, and listening ports.
+nmap – Performs network scanning and port enumeration.
+arp – Displays or modifies the ARP cache (MAC address table).
+dig – Performs DNS queries.
+whois – Retrieves WHOIS information about domains.
+host – Performs DNS lookups, similar to dig.
+traceroute – Shows the path packets take to reach a destination.
+route – Displays or modifies the IP routing table.
+iptables – Configures firewall rules.
+tcpdump – Captures and analyzes network traffic.
+wireshark – Graphical tool for packet capture and analysis.
+ssh – Securely connects to remote systems via SSH.
+nc (netcat) – Versatile networking utility for testing connections.
+
+# Exploits and Penetration Testing
+metasploit – Framework for developing and executing exploits.
+hydra – Performs brute-force login attacks.
+john – Password-cracking tool (John the Ripper).
+aircrack-ng – Wireless network security assessment tool.
+reaver – Brute-force attack against WPS-enabled routers.
+sqlmap – Automated SQL injection and database takeover tool.
+enum4linux – Enumerates information from Windows and Samba systems.
+nikto – Web server vulnerability scanner.
+dirb – Scans for hidden web directories and files.
+wpscan – WordPress vulnerability scanner.
+burp – Web application security testing platform.
+sqlninja – SQL Server injection and exploitation tool.
+ettercap – Man-in-the-middle attack tool.
+snort – Network intrusion detection system.
+openvas – Open-source vulnerability scanner.
+armitage – Graphical user interface for Metasploit.
+
+# Hacking & Reverse Engineering
+xsser – Cross-Site Scripting (XSS) exploitation tool.
+dirbuster – Brute-force tool for finding directories and files.
+hashcat – Advanced password recovery and cracking tool.
+volatility – Memory forensics and analysis tool.
+autopsy – Digital forensics platform.
+gobuster – Similar to dirbuster, used for directory scanning.
+dnsrecon – DNS enumeration tool.
+steghide – Hides data inside images or audio files.
+stegcracker – Steganography brute-force tool.
+sshuttle – VPN-like tunneling tool.
+mitmproxy – Intercepts and modifies HTTP/HTTPS traffic.
+hash-identifier – Identifies different hash types.
+samdump2 – Extracts password hashes from Windows SAM files.
+radare2 – Reverse engineering framework.
+airgeddon – Wireless auditing framework.
+mitm6 – Man-in-the-middle attack tool for IPv6.
+mitmAP – Creates fake access points for MITM attacks.
+
+# Information Gathering & OSINT
+dmitry – Deepmagic Information Gathering Tool.
+theharvester – Collects data from public sources.
+exiftool – Extracts metadata from files.
+binwalk – Analyzes and extracts files from binary images.
+foremost – File carving and data recovery tool.
+scalpel – Similar to foremost, used for forensic file recovery.
+ssh-keygen – Generates SSH key pairs.
+tcpflow – Captures and analyzes TCP connections.
+davtest – Tests WebDAV-enabled servers.
+sslscan – SSL/TLS vulnerability scanner.
+Wireless and Wi-Fi Security Tools
+wifite – Automated wireless network auditing tool.
+macchanger – Changes the MAC address of a network interface.
+nbtscan – NetBIOS scanner for Windows networks.
+ike-scan – VPN fingerprinting and testing tool.
+wifiphisher – Automates Wi-Fi phishing attacks.
+
+# System Exploitation & Pentesting
+veil – Generates undetectable payloads to bypass AVs.
+bettercap – Man-in-the-middle attack framework.
+ferret – Sniffs network traffic and captures credentials.
+maltego – Open-source intelligence and forensics tool.
+pdf-parser – Analyzes and extracts data from PDF files.
+openvpn – VPN server and client tool.
+msfvenom – Payload generator for Metasploit.
+dnsenum – DNS enumeration tool.
+p0f – Passive OS fingerprinting tool.
+thc-ipv6 – IPv6 attack toolkit.
+chntpw – Resets or removes Windows passwords.
+pcredz – Extracts Windows credentials from memory dumps.
+exploitdb – Searchable database of exploits.
+yara – Pattern-matching tool for malware analysis.
+db_nmap – Runs Nmap from within Metasploit.
+msfpc – Generates Metasploit payloads.
+mac-robber – Collects MAC timestamps from files and directories.
+enumiax – Enumerates information from Asterisk PBX systems.
+ipcalc – Calculates IP network parameters.
+mimikatz – Extracts Windows credentials from memory.
+
+# Web Application & Network Testing
+metagoofil – Collects metadata from public documents.
+recon-ng – Web reconnaissance framework.
+golismero – Web application security testing tool.
+sparta – GUI-based network penetration testing tool.
+nmapsi4 – Graphical interface for Nmap.
+socat – Multipurpose relay tool for bidirectional data transfer.
+dirbuster-ng – Brute-force tool for directories and files.
+udis86 – Disassembler library for x86 and x86-64 architectures.
+lynis – Security auditing and compliance testing tool.
